@@ -6,6 +6,4 @@ class Energy(models.Model):
     provider = models.CharField( max_length=200, default = '', null = True )
     enroll_date = models.DateTimeField( blank=True,default='', null=True )
 
-    def __str__(self):
-        return self.provider
 

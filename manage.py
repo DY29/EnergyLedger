@@ -2,6 +2,8 @@
 import os
 import sys
 
+
+
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "EnergyLedger.settings")
     try:
@@ -15,7 +17,7 @@ if __name__ == "__main__":
         except ImportError:
             raise ImportError(
                 "Couldn't import Django. Are you sure it's installed and "
-                "available on your PYTHONPATH environment variable? Did you "
+                "available on your PYTHONPATH environment variab  Did you "
                 "forget to activate a virtual environment?"
             )
         raise
